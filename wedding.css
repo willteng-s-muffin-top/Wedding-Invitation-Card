@@ -1,0 +1,110 @@
+
+.date-main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.date-a {
+    font-size: 23px;
+    padding: 0px;
+    margin: 50px;
+}
+
+/* .date-b {
+    font-size: 23px;
+    padding: 15px;
+    margin: 10px;
+} */
+
+.line {
+    margin: 0px;
+    align-items: center;
+}
+
+/* .main-background {
+    background-color: pink;
+    width: 600px;
+    height: 600px;
+} */
+
+.main-image {
+    border: solid;
+    border-radius: 50%;
+    width: 250px;
+    height: 330px;
+    padding: 15px;
+    margin: 30px;
+}
+
+.namek {
+    font-size: 20px;
+    padding: 15px;
+}
+
+.namey {
+    font-size: 20px;
+    padding: 15px;
+}
+
+/* .groomandbride {
+    display: flex;
+    align-items: center;
+} */
+
+.name {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.intro {
+    border: 3px solid grey;
+    padding: 7px 10px;
+    margin: 15px;
+    align-items: center;
+}
+
+.groomandbride > div {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+.date-time {
+    font-weight: bold;
+    padding: 20px;
+}
+
+.time {
+    padding: 5px;
+}
+
+.location {
+    font-weight: bold;
+    padding: 20px;
+}
+
+.location-name {
+    padding: 5px;
+}
+
+.adress {
+    padding: 5px;
+}
+
+.bg-pink {
+    background-color: #f3e8ec;
+    background-size: cover;
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dev-border {
+    border: 1px solid red;
+}
