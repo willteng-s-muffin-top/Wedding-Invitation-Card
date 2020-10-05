@@ -1,3 +1,22 @@
+/* 폰트 */
+@font-face {
+    font-family: 'MapoFlowerIsland';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoFlowerIslandA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MapoGoldenPier';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoGoldenPierA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'MapoFlowerIsland';
+    /* font-family: 'MapoGoldenPier'; */
+}
 
 .date-main {
     align-items: center;
@@ -65,7 +84,7 @@
     align-items: center;
 }
 
-.groomandbride > div {
+.groomandbride>div {
     display: flex;
     align-items: center;
     padding: 20px;
