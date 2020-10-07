@@ -17,13 +17,6 @@ body {
     /* font-family: 'MapoGoldenPier'; */
 }
 
-.main-img {
-    width: 250px;
-    height: 330px;
-    padding: 7px;
-    margin: 30px;
-}
-
 .name {
     font-size: 18px;
     margin: 7px;
@@ -42,12 +35,3 @@ body {
 .margin {
     margin: 40px;
 }
-
-.bg-color {
-    background-color: #f3e8ec;
-}
-
-.max-width {
-    max-width: 360px;
-}
-
