@@ -24,7 +24,6 @@ class Comment extends Component {
 
         return(
             <div className="comment-container">
-                {this.state.visitors}
                 <button className="txtbox" onClick={this.updateVisitors.bind(this)}>글 남기기</button>
                 {/* <input text className="txtbox"></input> */}
                 {items}
