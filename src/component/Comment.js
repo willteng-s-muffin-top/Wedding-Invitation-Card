@@ -24,9 +24,11 @@ class Comment extends Component {
 
         return(
             <div className="comment-container">
-                <button className="txtbox" onClick={this.updateVisitors.bind(this)}>글 남기기</button>
+                <button className="" onClick={this.updateVisitors.bind(this)}>글 남기기</button>
                 {/* <input text className="txtbox"></input> */}
-                {items}
+                <div className="card-container">
+                    {items}
+                </div>
             </div>
         );
     }
