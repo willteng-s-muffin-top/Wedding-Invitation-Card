@@ -5,7 +5,7 @@ import logo from '../assets/images/IMG_2251.JPG';
 class Title extends Component {
   render(){
     return (
-      <div className="flexbox bg-color">
+      <div className="flexbox">
           <h2 className="flexbox margin"><span>12</span><span>⏤</span><span>05</span></h2>
           <div>
               <img className="main-img" src={logo}/>
