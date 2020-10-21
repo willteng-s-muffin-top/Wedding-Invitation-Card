@@ -1,22 +1,3 @@
-@font-face {
-    font-family: 'MapoFlowerIsland';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoFlowerIslandA.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'MapoGoldenPier';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoGoldenPierA.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-body {
-    font-family: 'MapoFlowerIsland';
-    /* font-family: 'MapoGoldenPier'; */
-}
-
 .main-img {
     width: 250px;
     height: 330px;
@@ -24,20 +5,11 @@ body {
     margin: 30px;
 }
 
-.name {
-    font-size: 18px;
-    margin: 7px;
-}
-
 .line {
     margin: 15px;
 }
 
-.flexbox {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+
 
 .margin {
     margin: 40px;
@@ -47,7 +19,12 @@ body {
     background-color: #f3e8ec;
 }
 
-.max-width {
-    max-width: 360px;
+
+
+.title-container {
+    margin: 2rem;
 }
 
+.title-container-details {
+    margin: 4rem 0rem;
+}

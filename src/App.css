@@ -1,0 +1,76 @@
+/* NOTE: 폰트는 사이트 전체적으로 공통적으로 사용하기 때문에 
+  모든 컴포넌트를 포함하고 있는 App.css에 추가하고 다른 부분에서는 삭재했어요. */
+@font-face {
+  font-family: 'MapoFlowerIsland';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoFlowerIslandA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MapoGoldenPier';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoGoldenPierA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* GLOBAL Styles */
+/* 웹사이트 전역에서 공통으로 적용할 수 있는 스타일들이에요. */
+
+/* 배경 색깔 */
+/* NOTE: 배경 색깔도 공통적으로 사용하기 때문에 App.css에 입력했어요. */
+.bg-gray {
+  background-color: #f4f4f4;
+}
+
+/* 폰트 크기 */
+/* NOTE: 가장 많이 사용하는 폰트 크기 스타일을 여기에 적어놨어요. */
+.text-xs {
+  font-size: 0.75rem;
+}
+.text-base {
+  font-size: 1rem;
+}
+.text-lg {
+  font-size: 1.125rem;
+}
+.text-xl {
+  font-size: 1.5rem;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+/* 폰트 색깔 */
+.color-gray {
+  color: #4a5568;
+}
+.color-pink {
+  color: #fab8b3;
+}
+
+/* Settings */
+/* NOTE: 왠만한 모든 글들이 중앙으로 위치해있기 떄문에 기본으로 align 을 center로 지정했어요 */
+body {
+  font-family: 'MapoFlowerIsland';
+  text-align: center;
+}
+.container {
+  padding: 2rem;
+}
+.flexbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.max-width {
+  max-width: 360px;
+}
+.w-full {
+  width: 100%;
+}
+
+.dev-border {
+  border: 1px solid red;
+}
