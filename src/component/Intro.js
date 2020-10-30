@@ -15,7 +15,7 @@ class Intro extends Component {
           </p>
         </article>
 
-        <article className="bg-gray container w-full">
+        <article className="bg-gray w-full intro-family">
           <p className="line">
             <span className="name">김성길 • 이현숙</span>의 장남, 김희창
           </p>

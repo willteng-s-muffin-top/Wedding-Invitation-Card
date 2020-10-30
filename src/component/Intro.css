@@ -4,7 +4,7 @@
 }
 
 .line {
-    margin: 15px;
+    margin: 15px 0px;
 }
 
 .margin {
@@ -13,4 +13,8 @@
 
 .bible-verse, .invite {
     line-height: 1.75rem;
+}
+
+.intro-family {
+    padding: 2rem 0px;
 }

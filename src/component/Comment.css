@@ -1,9 +1,36 @@
 .txtbox {
-    background-color: lightpink;
-    height: 400px;
-    width: 300px;
+    background-color: #f4f4f4;
+    padding: 2rem;
+    height: 350px;
+    width: 200px;
     margin: 15px;
     flex: 0 0 auto;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.inputbox {
+    margin-right: 4rem;
+}
+.inputbox > * {
+    text-align: center;
+}
+.inputbox > input {
+    border: transparent;
+    background: transparent;
+    margin: 2rem 0px;
+}
+.inputbox > textarea {
+    border: transparent;
+    background: transparent;
+}
+.inputbox > button {
+    border: transparent;
+    background: #e0e0e0;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+.inputbox > button:hover {
+    background: #d6d6d6;
 }
 
 .comment-container {
@@ -13,5 +40,5 @@
     display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
-    border: 1px solid red;
+    padding: 2rem;
 }

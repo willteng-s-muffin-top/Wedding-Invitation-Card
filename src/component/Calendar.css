@@ -1,0 +1,187 @@
+.calendar {
+  display: grid;
+  grid-template-areas: 
+    "monday tuesday wednesday thursday friday saturday sunday"
+    "nov-30 dec-01 dec-02 dec-03 dec-04 dec-05 dec-06"
+    "dec-07 dec-08 dec-09 dec-10 dec-11 dec-12 dec-13"
+    "dec-14 dec-15 dec-16 dec-17 dec-18 dec-19 dec-20"
+    "dec-21 dec-22 dec-23 dec-24 dec-25 dec-26 dec-27"
+    "dec-28 dec-29 dec-30 dec-31 jan-01 jan-02 jan-03"
+  ;
+
+  border: 1px solid #cbd5e0;
+  margin: 2rem 0rem;
+}
+
+.days {
+  display: flex;
+  height: 7rem;
+  border: 1px dotted #e2e8f0;
+  padding: 1rem;
+  color: #4a5568;
+}
+.days-of-week {
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px dotted #e2e8f0;
+}
+.nov-30, .jan-01, .jan-02, .jan-03 {
+  background-color: #edf2f7;
+  color: #a0aec0;
+}
+
+
+.wedding-day {
+  display: flex;
+  flex-direction: column;
+  /* font-size: 4rem; */
+  /* width: 100%; */
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 100ms;
+  cursor: pointer;
+}
+.wedding-day:hover {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.wedding-day-date {
+  align-self: flex-start;
+}
+.wedding-day-emoji {
+  margin: 0.75rem 0px;
+  font-size: 1.5rem;
+}
+.wedding-day-title {
+  font-size: 1.2rem;
+}
+
+/* Calendar Setup */
+.monday {
+  grid-area: monday;
+}
+.tuesday {
+  grid-area: tuesday;
+}
+.wednesday {
+  grid-area: wednesday;
+}
+.thursday {
+  grid-area: thursday;
+}
+.friday {
+  grid-area: friday;
+}
+.saturday {
+  grid-area: saturday;
+}
+.sunday {
+  grid-area: sunday;
+}
+.nov-30 {
+  grid-area: nov-30;
+}
+.dec-01 {
+  grid-area: dec-01;
+}
+.dec-02 {
+  grid-area: dec-02;
+}
+.dec-03 {
+  grid-area: dec-03;
+}
+.dec-04 {
+  grid-area: dec-04;
+}
+.dec-05 {
+  grid-area: dec-05;
+}
+.dec-06 {
+  grid-area: dec-06;
+}
+.dec-07 {
+  grid-area: dec-07;
+}
+.dec-08 {
+  grid-area: dec-08;
+}
+.dec-09 {
+  grid-area: dec-09;
+}
+.dec-10 {
+  grid-area: dec-10;
+}
+.dec-11 {
+  grid-area: dec-11;
+}
+.dec-12 {
+  grid-area: dec-12;
+}
+.dec-13 {
+  grid-area: dec-13;
+}
+.dec-14 {
+  grid-area: dec-14;
+}
+.dec-15 {
+  grid-area: dec-15;
+}
+.dec-16 {
+  grid-area: dec-16;
+}
+.dec-17 {
+  grid-area: dec-17;
+}
+.dec-18 {
+  grid-area: dec-18;
+}
+.dec-19 {
+  grid-area: dec-19;
+}
+.dec-20 {
+  grid-area: dec-20;
+}
+.dec-21 {
+  grid-area: dec-21;
+}
+.dec-22 {
+  grid-area: dec-22;
+}
+.dec-23 {
+  grid-area: dec-23;
+}
+.dec-24 {
+  grid-area: dec-24;
+}
+.dec-25 {
+  grid-area: dec-25;
+}
+.dec-26 {
+  grid-area: dec-26;
+}
+.dec-27 {
+  grid-area: dec-27;
+}
+.dec-28 {
+  grid-area: dec-28;
+}
+.dec-29 {
+  grid-area: dec-29;
+}
+.dec-30 {
+  grid-area: dec-30;
+}
+.dec-31 {
+  grid-area: dec-31;
+}
+.jan-01 {
+  grid-area: jan-01;
+}
+.jan-02 {
+  grid-area: jan-02;
+}
+.jan-03 {
+  grid-area: jan-03;
+}
