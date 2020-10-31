@@ -57,7 +57,7 @@ class Comment extends Component {
 
         return(
             <div className="">
-                <h3 className="color-pink">한 마디</h3>
+                <h3 className="color-pink">축하 메세지</h3>
                 <div className="comment-container">
                     <div className="card-container">
                         <form className="txtbox inputbox" onSubmit={this.addComment}>

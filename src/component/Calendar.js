@@ -6,7 +6,7 @@ class Calendar extends Component {
     render(){
         return (
             <section className="container">
-                <h3 className="color-pink">날짜</h3>
+                <h3 className="color-pink">12월</h3>
                 <article className="calendar max-width-xl">
                     <div className="days-of-week monday">Mon</div>
                     <div className="days-of-week tuesday">Tues</div>
