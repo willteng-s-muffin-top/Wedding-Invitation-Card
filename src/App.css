@@ -67,6 +67,9 @@ body {
 .max-width {
   max-width: 360px;
 }
+.max-width-xl {
+  max-width: 1000px;
+}
 .w-full {
   width: 100%;
 }

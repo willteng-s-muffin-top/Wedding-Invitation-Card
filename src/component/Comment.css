@@ -10,6 +10,9 @@
 
 .inputbox {
     margin-right: 4rem;
+    display: flex;
+    flex-direction: column;
+    
 }
 .inputbox > * {
     text-align: center;

@@ -7,14 +7,14 @@ class Calendar extends Component {
         return (
             <section className="container">
                 <h3 className="color-pink">날짜</h3>
-                <article className="calendar">
-                    <div className="days-of-week monday">Monday</div>
-                    <div className="days-of-week tuesday">Tuesday</div>
-                    <div className="days-of-week wednesday">Wednesday</div>
-                    <div className="days-of-week thursday">Thursday</div>
-                    <div className="days-of-week friday">Friday</div>
-                    <div className="days-of-week saturday">Saturday</div>
-                    <div className="days-of-week sunday">Sunday</div>
+                <article className="calendar max-width-xl">
+                    <div className="days-of-week monday">Mon</div>
+                    <div className="days-of-week tuesday">Tues</div>
+                    <div className="days-of-week wednesday">Wed</div>
+                    <div className="days-of-week thursday">Thurs</div>
+                    <div className="days-of-week friday">Fri</div>
+                    <div className="days-of-week saturday">Sat</div>
+                    <div className="days-of-week sunday">Sun</div>
                     <div className="days nov-30">30</div>
                     <div className="days dec-01">01</div>
                     <div className="days dec-02">02</div>
@@ -22,8 +22,10 @@ class Calendar extends Component {
                     <div className="days dec-04">04</div>
                     <div className="days dec-05 wedding-day">
                         <span className="wedding-day-date">05</span>
-                        <span className="wedding-day-emoji" role="wedding" aria-label="wedding">💍</span>
-                        <span className="wedding-day-title">결혼식</span>
+                        <div className="wedding-day-details">
+                            <span className="wedding-day-emoji" role="wedding" aria-label="wedding">💍</span>
+                            <span className="wedding-day-title">결혼식</span>
+                        </div>
                     </div>
                     <div className="days dec-06">06</div>
                     <div className="days dec-07">07</div>

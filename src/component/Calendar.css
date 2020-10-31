@@ -9,15 +9,14 @@
     "dec-28 dec-29 dec-30 dec-31 jan-01 jan-02 jan-03"
   ;
 
-  border: 1px solid #cbd5e0;
-  margin: 2rem 0rem;
+  margin: 2rem auto;
 }
 
 .days {
   display: flex;
-  height: 7rem;
-  border: 1px dotted #e2e8f0;
-  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0px;
   color: #4a5568;
 }
 .days-of-week {
@@ -25,7 +24,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border-bottom: 1px dotted #e2e8f0;
 }
 .nov-30, .jan-01, .jan-02, .jan-03 {
   background-color: #edf2f7;
@@ -48,15 +46,47 @@
 }
 
 .wedding-day-date {
-  align-self: flex-start;
+  /* align-self: flex-start; */
+  background-color: #fc8181;
+  border-radius: 9999px;
+  padding: 0.5rem;
+}
+.wedding-day-details {
+  margin: 0px auto;
 }
 .wedding-day-emoji {
   margin: 0.75rem 0px;
   font-size: 1.5rem;
+  display: none;
 }
 .wedding-day-title {
   font-size: 1.2rem;
+  display: none;
 }
+
+
+@media (min-width: 1024px) {
+  .calendar {
+    border: 1px solid #cbd5e0;
+  }
+  .days {
+    border: 1px dotted #e2e8f0;
+    height: 7rem;
+    justify-content: start;
+    align-items: start;
+  }
+  .days-of-week {
+    border-bottom: 1px dotted #e2e8f0;
+  }
+  .wedding-day-emoji {
+    display: block;
+  }
+  .wedding-day-title {
+    display: block;
+  }
+}
+
+
 
 /* Calendar Setup */
 .monday {

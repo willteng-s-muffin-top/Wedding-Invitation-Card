@@ -56,7 +56,7 @@ class Comment extends Component {
         console.log('RENDER', this.state.comments);
 
         return(
-            <div className="container">
+            <div className="">
                 <h3 className="color-pink">한 마디</h3>
                 <div className="comment-container">
                     <div className="card-container">

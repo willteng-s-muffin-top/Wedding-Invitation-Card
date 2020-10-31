@@ -4,6 +4,7 @@ import Title from './component/Title';
 import Intro from './component/Intro';
 import Calendar from './component/Calendar';
 import Comment from './component/Comment';
+import Footer from './component/Footer';
 
 // import Calendar from './component/Calendar';
 import Map from './component/Map';
@@ -18,6 +19,7 @@ class App extends Component {
         <Calendar/>
         <Comment/>
         <Map/>
+        <Footer/>
       </main>
     );
   }
