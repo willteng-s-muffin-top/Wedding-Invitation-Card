@@ -5,7 +5,7 @@ import './Title.css';
 class Title extends Component {
   render(){
     return (
-      <section className="flexbox bg-gray title-container container">
+      <section className="flexbox title-container">
           <h2 className="flexbox title-container-date">
             <span>12</span><span>⏤</span><span>05</span>
           </h2>
@@ -18,17 +18,13 @@ class Title extends Component {
 
           <section className="title-container-details">
             <div className="line">
-              2020년 12월 05일 토요일, 2:30pm
+              2020년 12월 05일
             </div>
             <div className="line">⏤</div>
             <div className="line text-bold color-gray">
               Cafe 포에트
             </div>
-            <div className="text-xs">
-              서울시 마포구 와우산로 14길 12, 1F (상수동 86-10)
-            </div >
           </section>
-          
       </section>
     );
   }

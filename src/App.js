@@ -1,25 +1,21 @@
 import React, {Component} from 'react';
-import './App.css';
 import Title from './component/Title';
-import Intro from './component/Intro';
-import Calendar from './component/Calendar';
 import Comment from './component/Comment';
+import CardLists from './component/CardLists';
 import Footer from './component/Footer';
-
-// import Calendar from './component/Calendar';
-import Map from './component/Map';
-// import Comment from './component/Comment';
+import './App.css';
+import './component/Card.css';
 
 class App extends Component {
   render() {
     return (
       <main className="App">
-        <Title/>
-        <Intro/>
-        <Calendar/>
-        <Comment/>
-        <Map/>
-        <Footer/>
+        <section className="card-container bg-gray">
+          <Title/>
+          <Comment/>
+        </section>
+        <CardLists/>
+        {/* <Footer/> */}
       </main>
     );
   }

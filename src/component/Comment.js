@@ -44,30 +44,14 @@ class Comment extends Component {
     }
 
     render(){
-        const comments = [];
-
-        for (let i = 0; i < this.state.comments.length; i++) {
-        comments.push(<div className="txtbox">
-                <h4>{this.state.comments[i].name}</h4>
-                <p>{this.state.comments[i].comment}</p>
-            </div>);
-        };
-
-        console.log('RENDER', this.state.comments);
-
         return(
-            <div className="">
+            <div className="comment-container">
                 <h3 className="color-pink">축하 메세지</h3>
-                <div className="comment-container">
-                    <div className="card-container">
-                        <form className="txtbox inputbox" onSubmit={this.addComment}>
-                            <input type="text" placeholder="이름을 적어주세요" value={this.state.newComment.name} onChange={(e) => {this.setState({newComment: {name:e.target.value, comment:this.state.newComment.comment}})}}/>
-                            <textarea type="textarea" placeholder="메세지를 적어주세요" rows="15" value={this.state.newComment.comment} onChange={(e) => {this.setState({newComment: {name:this.state.newComment.name,comment:e.target.value}})}} />
-                            <button type="submit">확인</button>
-                        </form>
-                        {comments}
-                    </div>
-                </div>
+                <form className="inputbox" onSubmit={this.addComment}>
+                    <input type="text" placeholder="이름을 적어주세요" value={this.state.newComment.name} onChange={(e) => {this.setState({newComment: {name:e.target.value, comment:this.state.newComment.comment}})}}/>
+                    <textarea type="textarea" placeholder="메세지를 적어주세요" rows="15" value={this.state.newComment.comment} onChange={(e) => {this.setState({newComment: {name:this.state.newComment.name,comment:e.target.value}})}} />
+                    <button type="submit">확인</button>
+                </form>
             </div>
         );
     }
