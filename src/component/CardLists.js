@@ -54,7 +54,7 @@ class CardLists extends Component {
     };
     return(
       <section ref={this.containerWidth}>
-        <h3>Card Lists</h3>
+        <h3>축하 메세지</h3>
         <div className="card-lists-container">{comments}</div>  
       </section>
     );

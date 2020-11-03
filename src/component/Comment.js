@@ -7,7 +7,8 @@ class Comment extends Component {
         super(props);
         this.state = {
             comments: [{name: '', comment: ''}],
-            newComment: {name: '', comment: ''}
+            newComment: {name: '', comment: ''},
+            hideForm: false
         }
         this.addComment = this.addComment.bind(this);
     }
@@ -40,6 +41,7 @@ class Comment extends Component {
             console.error("Error writing error: ", error)
         });
 
+        this.setState({hideForm: true})
         this.listenForData();
     }
 
@@ -47,11 +49,15 @@ class Comment extends Component {
         return(
             <div className="comment-container">
                 <h3 className="color-pink">축하 메세지</h3>
-                <form className="inputbox" onSubmit={this.addComment}>
-                    <input type="text" placeholder="이름을 적어주세요" value={this.state.newComment.name} onChange={(e) => {this.setState({newComment: {name:e.target.value, comment:this.state.newComment.comment}})}}/>
-                    <textarea type="textarea" placeholder="메세지를 적어주세요" rows="15" value={this.state.newComment.comment} onChange={(e) => {this.setState({newComment: {name:this.state.newComment.name,comment:e.target.value}})}} />
-                    <button type="submit">확인</button>
-                </form>
+                {!this.state.hideForm ? (
+                    <form className="inputbox" onSubmit={this.addComment}>
+                        <input type="text" placeholder="이름을 적어주세요" value={this.state.newComment.name} onChange={(e) => {this.setState({newComment: {name:e.target.value, comment:this.state.newComment.comment}})}}/>
+                        <textarea type="textarea" placeholder="메세지를 적어주세요" rows="15" value={this.state.newComment.comment} onChange={(e) => {this.setState({newComment: {name:this.state.newComment.name,comment:e.target.value}})}} />
+                        <button type="submit">확인</button>
+                    </form>
+                ) : (
+                    <div className="comment-successful">감사합니다 ^^ <br/> 소중한 메세지가 전달되었습니다 📬</div>
+                )} 
             </div>
         );
     }
