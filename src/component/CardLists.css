@@ -1,7 +1,17 @@
+.card-lists {
+  margin-top: 6rem;
+}
+
 .card-lists-container {
+  display: none;
   position: relative;
   width: 100%;
   margin: 3rem;
+}
+@media (min-width: 1024px) {
+  .card-lists-container {
+    display: block;
+  }
 }
 
 .cardbox {
@@ -18,4 +28,26 @@
 }
 .cardbox:hover {
   opacity: 1;
+}
+
+/* Mobile View */
+
+.card-lists-container-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (min-width: 1024px) {
+  .card-lists-container-mobile {
+    display: none;
+  }
+}
+.cardbox-mobile {
+  background-color: #f4f4f4;
+  padding: 2rem;
+  height: 350px;
+  width: 200px;
+  margin: 15px;
+  flex: 0 0 auto;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }

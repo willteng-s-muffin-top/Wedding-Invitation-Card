@@ -28,7 +28,8 @@ class CardLists extends Component {
       });
   }
   render() {
-    const comments = [];
+    const commentsDesktop = [];
+    const commentsMobile = [];
 
     for (let i = 0; i < this.state.comments.length; i++) {
       const topPos = getRandomPosition(0, i/2 * 400);
@@ -43,19 +44,26 @@ class CardLists extends Component {
         zIndex: zIndex,
         transform: `rotate(${rotateDef}deg)`,
       }
-      comments.push(
+      commentsDesktop.push(
         <div 
-          // style={{position: 'absolute', top: `${topPos}`, left: `${leftPos}`, zIndex: `${zIndex}`, transform: `rotate(${rotateDef}deg)`}} 
           style={position} 
           key={i} className="cardbox">
           <h4>{this.state.comments[i].name}</h4>
           <p>{this.state.comments[i].comment}</p>
         </div>);
+      commentsMobile.push(
+        <div 
+          key={i} className="cardbox-mobile">
+          <h4>{this.state.comments[i].name}</h4>
+          <p>{this.state.comments[i].comment}</p>
+        </div>
+      );
     };
     return(
-      <section ref={this.containerWidth}>
+      <section ref={this.containerWidth} className="card-lists">
         <h3>축하 메세지</h3>
-        <div className="card-lists-container">{comments}</div>  
+        <div className="card-lists-container">{commentsDesktop}</div>
+        <div className="card-lists-container-mobile">{commentsMobile}</div>
       </section>
     );
 

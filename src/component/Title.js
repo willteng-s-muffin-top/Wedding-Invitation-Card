@@ -12,7 +12,7 @@ class Title extends Component {
           <div>
               {/* <img className="main-img" src={logo}/> */}
           </div>
-          <article className="line">
+          <article className="line title-name">
             <span className="text-xl text-bold color-gray">김희창</span> 그리고 <span className="text-xl text-bold color-gray">윤정인</span>
           </article>
 
