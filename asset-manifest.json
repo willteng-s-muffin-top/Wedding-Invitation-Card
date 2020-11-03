@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Wedding-Invitation-Card/static/css/main.5ae064d7.chunk.css",
-    "main.js": "/Wedding-Invitation-Card/static/js/main.7a16a533.chunk.js",
-    "main.js.map": "/Wedding-Invitation-Card/static/js/main.7a16a533.chunk.js.map",
+    "main.css": "/Wedding-Invitation-Card/static/css/main.98046c1e.chunk.css",
+    "main.js": "/Wedding-Invitation-Card/static/js/main.9ff4094b.chunk.js",
+    "main.js.map": "/Wedding-Invitation-Card/static/js/main.9ff4094b.chunk.js.map",
     "runtime-main.js": "/Wedding-Invitation-Card/static/js/runtime-main.23df98f6.js",
     "runtime-main.js.map": "/Wedding-Invitation-Card/static/js/runtime-main.23df98f6.js.map",
     "static/js/2.3d109e4d.chunk.js": "/Wedding-Invitation-Card/static/js/2.3d109e4d.chunk.js",
     "static/js/2.3d109e4d.chunk.js.map": "/Wedding-Invitation-Card/static/js/2.3d109e4d.chunk.js.map",
     "index.html": "/Wedding-Invitation-Card/index.html",
-    "precache-manifest.ec1ce924ab63570d7374003470e33771.js": "/Wedding-Invitation-Card/precache-manifest.ec1ce924ab63570d7374003470e33771.js",
+    "precache-manifest.8f2ec27870f5df500214a43900db0d8a.js": "/Wedding-Invitation-Card/precache-manifest.8f2ec27870f5df500214a43900db0d8a.js",
     "service-worker.js": "/Wedding-Invitation-Card/service-worker.js",
-    "static/css/main.5ae064d7.chunk.css.map": "/Wedding-Invitation-Card/static/css/main.5ae064d7.chunk.css.map",
+    "static/css/main.98046c1e.chunk.css.map": "/Wedding-Invitation-Card/static/css/main.98046c1e.chunk.css.map",
     "static/js/2.3d109e4d.chunk.js.LICENSE.txt": "/Wedding-Invitation-Card/static/js/2.3d109e4d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.23df98f6.js",
     "static/js/2.3d109e4d.chunk.js",
-    "static/css/main.5ae064d7.chunk.css",
-    "static/js/main.7a16a533.chunk.js"
+    "static/css/main.98046c1e.chunk.css",
+    "static/js/main.9ff4094b.chunk.js"
   ]
 }
