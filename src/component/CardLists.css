@@ -37,6 +37,14 @@
   flex-direction: column;
   align-items: center;
 }
+@media (min-width: 768px) {
+  .card-lists-container-mobile {
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+}
 @media (min-width: 1024px) {
   .card-lists-container-mobile {
     display: none;

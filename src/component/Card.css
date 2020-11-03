@@ -1,14 +1,20 @@
 .card-container {
-  max-width: 1000px;
   margin: 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
-
+@media (min-width: 768px) {
+  .card-container {
+    max-width: 700px;
+    flex-direction: row;
+    margin: 4rem auto;
+  }
+}
 @media (min-width: 1024px) {
   .card-container {
+    max-width: 1000px;
     flex-direction: row;
     margin: 4rem auto;
   }
