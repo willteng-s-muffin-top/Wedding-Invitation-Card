@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Intro from './component/Intro';
 import Title from './component/Title';
 import Comment from './component/Comment';
 import CardLists from './component/CardLists';
@@ -9,8 +10,12 @@ class App extends Component {
   render() {
     return (
       <main className="App">
-        <section className="card-container bg-gray">
-          <Title/>
+        <div className="mobile"><Title/></div>
+        <Intro/>
+        <section className="card-container bg-paper-main">
+          <div className="desktop">
+            <Title/>
+          </div>
           <Comment/>
         </section>
         <CardLists/>

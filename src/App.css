@@ -19,8 +19,32 @@
 
 /* 배경 색깔 */
 /* NOTE: 배경 색깔도 공통적으로 사용하기 때문에 App.css에 입력했어요. */
+body {
+  background-color: #F7F7F7;
+}
 .bg-gray {
-  background-color: #f4f4f4;
+  background-color: #f9f5fa;
+}
+.bg-paper-main {
+  background: none;
+  /* background-image: url("./assets/images/paper-texture.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04); */
+}
+@media (min-width: 1250px) {
+  .bg-paper-main {
+    background-image: url("./assets/images/torn-paper.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: none;
+  }
+}
+
+.bg-paper {
+  background-image: url("./assets/images/paper-texture.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* 폰트 크기 */
@@ -48,6 +72,9 @@
 }
 .color-pink {
   color: #fab8b3;
+}
+.color-violet {
+  color: #e0b7e0;
 }
 
 /* Settings */
@@ -84,4 +111,26 @@ body {
 
 .hidden {
   display: none;
+}
+
+.desktop {
+  display: none;
+}
+.mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .desktop {
+    display: initial;
+  }
+  .mobile {
+    display: none;
+  }
+}
+@media (min-width: 1250px) {
+  .desktop {
+    width: 70%;
+  }
 }

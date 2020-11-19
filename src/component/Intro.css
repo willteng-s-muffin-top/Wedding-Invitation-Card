@@ -1,0 +1,67 @@
+.intro-container {
+  padding: 4rem 0px;
+  max-width: 1000px;
+  margin: 0px auto;
+}
+
+.crownFlower {
+  width: 200px;
+}
+.intro {
+  margin-top: 0rem;
+  margin-bottom: 4rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  line-height: 1.5rem;
+}
+.intro > h1 {
+  margin: 4rem 0px;
+}
+
+.bible {
+  width: 75px;
+}
+.cross {
+  font-size: 2rem;
+}
+
+.family-container {
+  margin: 2rem auto;
+  margin-bottom: 4rem;
+}
+.family-description-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 500px;
+  margin: 0px auto;
+  margin-top: 4rem;
+}
+@media (min-width: 768px) {
+  .family-description-container {
+    flex-direction: row;
+  }
+}
+.brideFlower {
+  width: 30px;
+}
+.groomFlower {
+  width: 30px;
+}
+.family-groom {
+  width: 50%;
+}
+.family-bride {
+  width: 50%;
+}
+.family-description {
+  font-size: 0.75rem;
+}
+
+.bible-container {
+  margin: 0px 1rem;
+  margin-top: 4rem;
+}
+.bible-container > p {
+  line-height: 2rem;
+}

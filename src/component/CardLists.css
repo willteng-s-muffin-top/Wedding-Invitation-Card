@@ -1,5 +1,7 @@
 .card-lists {
   margin-top: 6rem;
+
+  line-height: 1.75rem;
 }
 
 .card-lists-container {
@@ -8,14 +10,17 @@
   width: 100%;
   margin: 3rem;
 }
-@media (min-width: 1024px) {
+@media (min-width: 1250px) {
   .card-lists-container {
     display: block;
   }
 }
 
 .cardbox {
-  background-color: #f4f4f4;
+  background-image: url("../assets/images/paper-texture.jpg");
+  background-repeat: no-repeat;
+  background-color: white;
+
   padding: 2rem;
   height: 350px;
   width: 200px;
@@ -51,7 +56,10 @@
   }
 }
 .cardbox-mobile {
-  background-color: #f4f4f4;
+  background-image: url("../assets/images/paper-texture.jpg");
+  background-repeat: no-repeat;
+  background-color: white;
+
   padding: 2rem;
   height: 350px;
   width: 200px;

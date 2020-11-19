@@ -48,7 +48,7 @@ class Comment extends Component {
     render(){
         return(
             <div className="comment-container">
-                <h3 className="color-pink">축하 메세지</h3>
+                <h3 className="color-violet">축하 메세지</h3>
                 {!this.state.hideForm ? (
                     <form className="inputbox" onSubmit={this.addComment}>
                         <input type="text" placeholder="이름을 적어주세요" value={this.state.newComment.name} onChange={(e) => {this.setState({newComment: {name:e.target.value, comment:this.state.newComment.comment}})}}/>
