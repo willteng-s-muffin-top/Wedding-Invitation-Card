@@ -28,11 +28,11 @@ class Intro extends Component {
           <img className="brideFlower" src={bride_flower} alt="flower"/>
           <div className="family-description-container">
             <div className="family-groom">
-              <p>김성길 • 이현숙<span className="family-description">의 장남</span></p>
+              <p><span className="family-parents-name">김성길 • 이현숙</span><span className="family-description">의 장남</span></p>
               <p><strong>김희창</strong></p>
             </div>
             <div className="family-bride">
-              <p>윤희상 • 고은아<span className="family-description">의 장녀</span></p>
+              <p><span className="family-parents-name">윤희상 • 고은아</span><span className="family-description">의 장녀</span></p>
               <p><strong>윤정인</strong></p>
             </div>
           </div>

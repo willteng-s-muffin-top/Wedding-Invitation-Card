@@ -42,6 +42,9 @@
     flex-direction: row;
   }
 }
+.family-parents-name {
+  font-size: 1.125rem;
+}
 .brideFlower {
   width: 30px;
 }
