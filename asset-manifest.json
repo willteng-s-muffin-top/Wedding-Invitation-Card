@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/Wedding-Invitation-Card/static/css/main.98046c1e.chunk.css",
-    "main.js": "/Wedding-Invitation-Card/static/js/main.9ff4094b.chunk.js",
-    "main.js.map": "/Wedding-Invitation-Card/static/js/main.9ff4094b.chunk.js.map",
+    "main.css": "/Wedding-Invitation-Card/static/css/main.e5df183d.chunk.css",
+    "main.js": "/Wedding-Invitation-Card/static/js/main.af95d99a.chunk.js",
+    "main.js.map": "/Wedding-Invitation-Card/static/js/main.af95d99a.chunk.js.map",
     "runtime-main.js": "/Wedding-Invitation-Card/static/js/runtime-main.23df98f6.js",
     "runtime-main.js.map": "/Wedding-Invitation-Card/static/js/runtime-main.23df98f6.js.map",
-    "static/js/2.3d109e4d.chunk.js": "/Wedding-Invitation-Card/static/js/2.3d109e4d.chunk.js",
-    "static/js/2.3d109e4d.chunk.js.map": "/Wedding-Invitation-Card/static/js/2.3d109e4d.chunk.js.map",
+    "static/js/2.bc5adaf7.chunk.js": "/Wedding-Invitation-Card/static/js/2.bc5adaf7.chunk.js",
+    "static/js/2.bc5adaf7.chunk.js.map": "/Wedding-Invitation-Card/static/js/2.bc5adaf7.chunk.js.map",
     "index.html": "/Wedding-Invitation-Card/index.html",
-    "precache-manifest.8f2ec27870f5df500214a43900db0d8a.js": "/Wedding-Invitation-Card/precache-manifest.8f2ec27870f5df500214a43900db0d8a.js",
+    "precache-manifest.d07b76b89497323978b5f200038211d9.js": "/Wedding-Invitation-Card/precache-manifest.d07b76b89497323978b5f200038211d9.js",
     "service-worker.js": "/Wedding-Invitation-Card/service-worker.js",
-    "static/css/main.98046c1e.chunk.css.map": "/Wedding-Invitation-Card/static/css/main.98046c1e.chunk.css.map",
-    "static/js/2.3d109e4d.chunk.js.LICENSE.txt": "/Wedding-Invitation-Card/static/js/2.3d109e4d.chunk.js.LICENSE.txt"
+    "static/css/main.e5df183d.chunk.css.map": "/Wedding-Invitation-Card/static/css/main.e5df183d.chunk.css.map",
+    "static/js/2.bc5adaf7.chunk.js.LICENSE.txt": "/Wedding-Invitation-Card/static/js/2.bc5adaf7.chunk.js.LICENSE.txt",
+    "static/media/groom_flower.png": "/Wedding-Invitation-Card/static/media/groom_flower.d9b1eaf9.png",
+    "static/media/App.css": "/Wedding-Invitation-Card/static/media/torn-paper.bc50e76b.png",
+    "static/media/profile.JPG": "/Wedding-Invitation-Card/static/media/profile.3bcf2940.JPG"
   },
   "entrypoints": [
     "static/js/runtime-main.23df98f6.js",
-    "static/js/2.3d109e4d.chunk.js",
-    "static/css/main.98046c1e.chunk.css",
-    "static/js/main.9ff4094b.chunk.js"
+    "static/js/2.bc5adaf7.chunk.js",
+    "static/css/main.e5df183d.chunk.css",
+    "static/js/main.af95d99a.chunk.js"
   ]
 }
