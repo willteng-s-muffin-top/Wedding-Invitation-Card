@@ -7,8 +7,7 @@ class Intro extends Component {
     return(
       <section className="intro-container">
         <article class="intro">
-          {/* <img className="crownFlower" src={crown_flower} /> */}
-          <img className="brideFlower" src={bride_flower} />
+          <img className="brideFlower" src={bride_flower} alt="flower" />
           <h1>인사말</h1>
           <p>하나님의 사랑으로 만나 교제한 저희가<br/>
               더 큰 축복의 관계로 나아가고자<br/>
@@ -26,27 +25,20 @@ class Intro extends Component {
           기도해주시면 감사하겠습니다.</p>
         </article>
         <article className="family-container">
-          {/* <h1>소개</h1> */}
-          <img className="brideFlower" src={bride_flower} />
+          <img className="brideFlower" src={bride_flower} alt="flower"/>
           <div className="family-description-container">
             <div className="family-groom">
-              {/* <img className="groomFlower" src={groom_flower} /> */}
               <p>김성길 • 이현숙<span className="family-description">의 장남</span></p>
               <p><strong>김희창</strong></p>
             </div>
             <div className="family-bride">
-              {/* <img className="brideFlower" src={bride_flower} /> */}
               <p>윤희상 • 고은아<span className="family-description">의 장녀</span></p>
               <p><strong>윤정인</strong></p>
             </div>
           </div>
         </article>
-        <img className="brideFlower" src={bride_flower} />
-        {/* <img className="groomFlower" src={groom_flower} /> */}
+        <img className="brideFlower" src={bride_flower} alt="flower"/>
         <article className="bible-container">
-          {/* <img className="bible" src={bible} alt="bible" /> */}
-          {/* <p className="cross">✝</p> */}
-          {/* <img className="groomFlower" src={groom_flower} /> */}
           <p>"나의 사랑하는 자가 내게 말하여 이르기를<br/>나의 사랑, 내 어여쁜 자야 일어나서 함께 가자"</p>
           <p>아가 2장 10절</p>
         </article>

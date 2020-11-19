@@ -10,7 +10,7 @@ class Title extends Component {
           <span>12</span><span>⏤</span><span>05</span>
         </h2>
 
-        <img className="main-img" src={logo}/>
+        <img className="main-img" src={logo} alt="flower"/>
 
         <p className="title-name">
           <span className="text-xl text-bold color-gray">김희창</span> 그리고 <span className="text-xl text-bold color-gray">윤정인</span>
