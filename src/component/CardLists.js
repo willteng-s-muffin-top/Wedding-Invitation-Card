@@ -47,13 +47,13 @@ class CardLists extends Component {
       commentsDesktop.push(
         <div 
           style={position} 
-          key={i} className="cardbox">
+          key={i} className="cardbox overflow">
           <h4>{this.state.comments[i].name}</h4>
           <p>{this.state.comments[i].comment}</p>
         </div>);
       commentsMobile.push(
         <div 
-          key={i} className="cardbox-mobile">
+          key={i} className="cardbox-mobile overflow">
           <h4>{this.state.comments[i].name}</h4>
           <p>{this.state.comments[i].comment}</p>
         </div>
