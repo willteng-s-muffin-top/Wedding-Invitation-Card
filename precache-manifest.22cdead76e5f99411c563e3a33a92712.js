@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cbb4f2fe952af017a228e8046aee9031",
+    "revision": "c4620d3544bd9e8b7b3e406af6b6cba2",
     "url": "/Wedding-Card/index.html"
   },
   {
-    "revision": "acd721a37a927ae4a9da",
+    "revision": "3d1b96053f799fca27db",
     "url": "/Wedding-Card/static/css/main.d0a745f0.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Wedding-Card/static/js/2.20985af1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "acd721a37a927ae4a9da",
-    "url": "/Wedding-Card/static/js/main.9fdcf99f.chunk.js"
+    "revision": "3d1b96053f799fca27db",
+    "url": "/Wedding-Card/static/js/main.2b0bd866.chunk.js"
   },
   {
     "revision": "7a2cfb799b569388164e",
